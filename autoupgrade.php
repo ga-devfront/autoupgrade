@@ -61,6 +61,11 @@ class Autoupgrade extends Module
         return true;
     }
 
+    public function isMcpCompliant(): bool
+    {
+        return true;
+    }
+
     /**
      * @return bool
      */
